@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 html {
     display: table;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 header, footer {
@@ -10,21 +11,38 @@ header, footer {
     color: white;
     padding: 5px 10px;
     margin: auto;
-    width: 1000px;;
+    width: 100%;
+    text-align: center;
 }
 
 h3 {
-    background-color: rgb(58, 73, 88);
-    color: white;
+/*     background-color: rgb(58, 73, 88);
+    color: white; */
+    margin: auto;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+img {
+    padding: 5px 2.5%;
 }
 
 .example {
-    border-radius: 15px;
-    border: 1px solid white;
+    display: grid;
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid rgb(194, 194, 194);
     background-color: rgb(238, 238, 238);
+    margin: 10px 0px;
+    max-width: 340px;
+}
+
+.example p, a {
+    padding-left: 10px;
+    font-size: 16px;
 }
 
 #exampleContainer {
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
 }
