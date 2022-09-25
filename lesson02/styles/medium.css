@@ -1,0 +1,7 @@
+@media only screen and (max-width: 1068px) {
+    #exampleContainer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+}
