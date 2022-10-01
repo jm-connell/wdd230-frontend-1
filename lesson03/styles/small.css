@@ -9,11 +9,15 @@ body {
     color: #FFF0CE;
     max-width: 800px;
     margin: auto;
+    padding: 0em 1em;
 }
 
 header {
-    display: flex;
     color: #FFF0CE;
+}
+
+footer {
+    padding-top: 20px;
 }
 
 nav {
@@ -23,6 +27,7 @@ nav {
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 0px;
 }
