@@ -4,14 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <meta name="description" content="Jon Connell - Chamber of Commerce Home">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Yakima Chamber of Commerce - Home</title>
 </head>
+
 <body>
 
     <header>
-        <h1>Jon Connell</h1>
-        <img>
+        <div class="heading">
+            <img class="logo" src="images/yakimalogo.png" alt="Chamber of Commerce Logo">
+            <div class="headerText">
+                <h1>Yakima Chamber of Commerce - Site Plan</h1>
+                <div class="headerDetails">
+                    <p id="headerDate"></p>
+                    <a href="https://www.facebook.com">FB</a>
+                    <a href="https://www.instagram.com">Insta</a>
+                </div>
+            </div>
+        </div>
+        
+        <nav>
+            <ul class="navigation">
+                <li class="menuButton"><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="index.html">Page 1</a></li>
+                <li><a href="index.html">Page 2</a></li>
+                <li><a href="index.html">Page 3</a></li>
+                <li><a href="index.html">Page 4</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <main>
+        <section class="heroContainer">
+            <h2>Hero with site name and call to action</h2>
+        </section>
+
+        <section class="eventContainer">
+            <h2>Event</h2>
+        </section>
+
+        <section class="weatherContainer">
+            <h2>Weather</h2>
+        </section>
+
+        <section class="newsContainer">
+            <h2>News Release</h2>
+        </section>
+
+        <section class="spotlightContainer">
+            <div>
+                <h2 class="spotlight">Spotlight 1</h2>
+            </div>
+            <div>
+                <h2 class="spotlight">Spotlight 2</h2>
+            </div>
+        </section>
+
+        <!-- Elements for Medium/Large View -->
+        <section class="joinContainer">
+            <h2>Join</h2>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <img class="logo" src="images/yakimalogo.png" alt="Chamber of Commerce Logo">
+        <p id="footerText"></p>
+    </footer>
     
+    <script src="scripts/lesson04.js"></script>
 </body>
 </html>

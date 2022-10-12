@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600&display=swap');
+
+html {
+    font-family: 'Inter Tight', sans-serif;
+}
+
+body {
+    background-color: #FFF0CE;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+header {
+    background-color: #393548;
+    display: flex;
+}
+
+footer {
+    background-color: #393548;
+    margin-top: auto;
+}
+
+header, footer {
+    color: white;
+}
+
+footer p {
+    padding: 0 0.75rem;
+}
+
+nav {
+    background-color: #FFF0CE;
+    color: black;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+section {
+    background-color: lightgray;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    margin: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: #393548;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    text-align: left;
+    transition: 0.3s;
+    padding: 0.6rem 1.5rem;
+    width: 100%
+}
+
+.menuButton {
+    font-size: 1.25rem;
+}
+
+.logo {
+    width: 150px;
+}
+
+.headerText {
+    padding: 0 0.75rem 0.75rem 0.75rem;
+}
+
+.headerDetails a {
+    text-decoration: none;
+    color: white;
+}
+
+.spotlight {
+    border: 2px solid rgba(128, 128, 128, 0.377);
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.joinContainer {
+    display: none;
+}
+
+
+/* Styles for responsive class to make expanding menu */
+.responsive li {
+    display: block;
+}
