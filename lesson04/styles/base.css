@@ -130,6 +130,14 @@ section {
     padding: 0;
 }
 
+.instagramLink {
+    padding-left: 0.5rem;
+}
+
+.headerDetails a {
+    text-decoration: underline;
+}
+
 
 
 
