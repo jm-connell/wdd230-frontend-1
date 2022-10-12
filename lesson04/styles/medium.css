@@ -4,10 +4,17 @@
         grid-template-columns: 2fr 1fr;
     }
 
+    footer {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
     .spotlight {
         margin: 0.75rem;
         padding: 0.75rem;
     }
+
 
     /* Properties for Main grid */
     .heroContainer {
@@ -44,5 +51,12 @@
         grid-row: 5 / 6;
     }
 
+
+    /* Properties for Footer grid */
+    .footerInfo {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+    }
 
 }

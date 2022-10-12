@@ -25,6 +25,7 @@ header {
 footer {
     background-color: #393548;
     margin-top: auto;
+    text-align: center;
 }
 
 header, footer {
@@ -43,6 +44,14 @@ nav {
 
 h1 {
     font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.2rem;
 }
 
 section {
@@ -115,6 +124,13 @@ section {
 .joinContainer {
     display: none;
 }
+
+.footerAddress > * {
+    margin: auto;
+    padding: 0;
+}
+
+
 
 
 /* Styles for responsive class to make expanding menu */

@@ -1,6 +1,10 @@
 const date = new Date();
 
-document.querySelector("#headerDate").textContent = `${date.getDay()}, ${date.getDay()} ${date.getMonth()} ${date.getFullYear()}`;
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"
+}).format(date);
+
+document.querySelector("#headerDate").textContent = `${fulldateUK}`;
 
 document.querySelector('#footerText').textContent = `© ${date.getFullYear()} Yakima Chamber | Jon Connell | WDD 230 Project | Last Modification: ${document.lastModified}`;
 

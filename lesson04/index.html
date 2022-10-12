@@ -21,21 +21,22 @@
                 <h1>Yakima Chamber of Commerce - Site Plan</h1>
                 <div class="headerDetails">
                     <p id="headerDate"></p>
-                    <a href="https://www.facebook.com">FB</a>
-                    <a href="https://www.instagram.com">Insta</a>
+                    <a href="https://www.facebook.com">Facebook</a>
+                    <a href="https://www.instagram.com">Instagram</a>
                 </div>
             </div>
         </div>
         
-        <nav>
+        <nav class="baseNavigation">
             <ul class="navigation">
                 <li class="menuButton"><a href="#" onclick="toggleMenu()">&#9776;</a></li>
-                <li><a href="index.html">Page 1</a></li>
-                <li><a href="index.html">Page 2</a></li>
-                <li><a href="index.html">Page 3</a></li>
-                <li><a href="index.html">Page 4</a></li>
+                <li><a href="index.html">Discovery</a></li>
+                <li><a href="index.html">Directory</a></li>
+                <li><a href="index.html">Join</a></li>
+                <li><a href="index.html">Contact</a></li>
             </ul>
         </nav>
+        
     </header>
 
     <main>
@@ -73,8 +74,25 @@
     </main>
 
     <footer>
-        <img class="logo" src="images/yakimalogo.png" alt="Chamber of Commerce Logo">
-        <p id="footerText"></p>
+        <div class="footerInfo">
+            <img class="logo" src="images/yakimalogo.png" alt="Chamber of Commerce Logo">
+
+            <div>
+                <h2>Yakima Chamber of Commerce</h2>
+                <p>10 N 9th Street</p>
+                <p>Yakima, WA</p>
+            </div>
+
+            <div>
+                <p>contact@yakimachamber.org</p>
+                <p>+1 (509) 965-7768</p>
+            </div>
+        </div>
+
+        <div id="footerTextContainer">
+            <hr>
+            <p id="footerText"></p>
+        </div>
     </footer>
     
     <script src="scripts/lesson04.js"></script>
