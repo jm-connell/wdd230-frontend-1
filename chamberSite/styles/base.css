@@ -137,9 +137,6 @@ section {
     color: white;
 }
 
-.spotlight {
-    border: 2px solid rgba(128, 128, 128, 0.377);
-}
 
 .heading {
     display: flex;
@@ -199,4 +196,25 @@ section {
 
 .mainMargin {
     margin-top: 2.2rem;
+}
+
+/* Styles for Main sections */
+.heroContainer {
+    padding: 0;
+    position: relative;
+    border: none;
+    background-color: #FFF0CE;
+}
+
+.heroContainer h2 {
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+    font-size: 1.7rem;
+    color: white;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.heroContainer img {
+    border-radius: 3px;
 }
