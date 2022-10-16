@@ -19,6 +19,14 @@ if (largeQuery.matches) {
     document.querySelector("main").classList.toggle("mainMargin");
 }
 
-/* if (date.getDay() == 1 || 2) {
-    document.querySelector(".banner").style.display = "block"
-} */
+const day = date.getDay();
+
+if (day == 1) {
+    document.querySelector(".banner").style.display = "block";
+    document.querySelector("body").style.marginTop = "3.8rem";
+} else if (day == 2){
+    document.querySelector(".banner").style.display = "block";
+    document.querySelector("body").style.marginTop = "3.8rem";
+    document.querySelector(".menuButton").style.top = "9.8rem";
+}
+
