@@ -17,7 +17,7 @@
 
     <header>
         <div class="heading">
-            <img class="logo" src="images/yakimalogo.png" alt="Chamber of Commerce Logo">
+            <img class="logo" src="images/yakimalogo.webp" alt="Chamber of Commerce Logo">
             <div class="headerText">
                 <h1>Yakima Chamber of Commerce</h1>
                 <div class="headerDetails">
@@ -47,7 +47,26 @@
     <main>
         <section class="heroContainer">
             <h2>Welcome to Yakima</h2>
-            <img src="images/yakimadowntown.jpeg" width="100%">
+
+            <picture>
+                <source
+                    srcset="images/small-hero.jpg"
+                    type="image/jpg"
+                    media="all and (max-width:32.4rem)"
+                />
+                <source
+                    srcset="images/medium-hero.jpg"
+                    type="image/jpg"
+                    media="all and (min-width:32.5rem) and (max-width:69.9rem)"
+                />
+                <source
+                    srcset="images/large-hero.jpg"
+                    type="image/jpg"
+                    media="all and (min-width:70rem)"
+                />
+                <img src="images/large-hero.jpg" alt="Hero Image" width="100%"/>
+            </picture>
+
         </section>
 
         <section class="eventContainer">
@@ -58,8 +77,10 @@
 
         <section class="weatherContainer">
             <h2>Weather</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates recusandae doloremque perspiciatis sequi dignissimos magni!</p>
-            <p>Wind: 200mph (Watch out!)</p>
+            <h3>Temperature: 43°F</h3>
+            <h4>Raining</h4>
+            <p class="windSpeed">Wind: 8 mph</p>
+            <p class="windChill">N/A</p>
         </section>
 
         <section class="newsContainer">
@@ -89,7 +110,7 @@
 
     <footer>
         <div class="footerInfo">
-            <img class="logo" src="images/yakimalogo.png" alt="Chamber of Commerce Logo">
+            <img class="logo" src="images/yakimalogo.webp" alt="Chamber of Commerce Logo">
 
             <div>
                 <h2>Yakima Chamber of Commerce</h2>
@@ -110,5 +131,6 @@
     </footer>
     
     <script src="scripts/lesson04.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

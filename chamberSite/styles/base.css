@@ -218,3 +218,7 @@ section {
 .heroContainer img {
     border-radius: 3px;
 }
+
+.weatherContainer {
+    text-align: center;
+}
