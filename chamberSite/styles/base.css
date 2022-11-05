@@ -13,7 +13,7 @@ body {
     justify-content: flex-start;
 }
 
-main {
+.indexMain {
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -224,4 +224,25 @@ section {
 
 .weatherContainer {
     text-align: center;
+}
+
+/* Styles for Discover Page */
+.gallery {
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.gallery figure {
+    width: 800px;
+    margin: auto;
+    padding: 0.5rem 0;
+}
+
+.demographics {
+    text-align: left;
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

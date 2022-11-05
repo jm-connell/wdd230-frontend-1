@@ -1,6 +1,6 @@
 @media (min-width: 70rem) {
 
-    main {
+    .indexMain {
         grid-template-columns: 1fr 3fr 1fr;
         margin-top: 2.2rem;
     }
@@ -77,6 +77,12 @@
         display: grid;
         grid-template-columns: 1fr;
         padding: 0;
+    }
+
+    /* Properties for Discovery Page */
+    .gallery figure img:hover {
+        box-shadow: 0 0 30px #333;
+        transition: 0.3s;
     }
     
 }
